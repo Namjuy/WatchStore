@@ -1,0 +1,84 @@
+#account {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+#account .account__profile {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgb(232, 218, 184);
+  padding: 2rem 0;
+}
+
+#account .account__profile form .account__image {
+ 
+  width: 200px;
+  margin: 0 auto;
+}
+
+#account .account__profile form .account__image img {
+  border-radius: 50%;
+ 
+}
+#account .account__profile form .form__container label {
+  margin: 1rem auto;
+  width: 80%;
+  display: block;
+}
+#account .account__profile form .form__container input {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+}
+
+#account .account__profile form input {
+  border: 0.5px solid rgb(184, 181, 181);
+  border-radius: 3px;
+  padding: 8px;
+  height: 35px;
+  width: 100%;
+}
+
+#account .account__profile form input:focus {
+  border: 0.5px solid rgb(184, 181, 181);
+}
+#account .account__profile form .account__edit {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#account .account__profile form .account__update {
+  width: 80%;
+  margin: 1rem auto;
+}
+#account .account__profile form .form__container .gender__form {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+#account .account__profile form .form__container .gender__male {
+  width: 10%;
+  display: inline;
+}
+#account .account__profile form .form__container .gender__female {
+  width: 10%;
+  display: inline;
+}
+#account .account__profile form .form__container #male {
+  display: inline;
+  width: 20%;
+  height: 20px;
+}
+#account .account__profile form .form__container #female {
+  display: inline;
+  width: 20%;
+  height: 20px;
+}
+
+#account .account__profile form .form__container .error {
+  width: 80%;
+  margin: 1rem auto;
+  font-weight: bold;
+  color: red;
+}

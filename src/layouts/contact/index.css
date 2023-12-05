@@ -1,0 +1,40 @@
+.contact{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: fit-content;
+    overflow: hidden;
+    width: 80%;
+    margin: 1.5rem auto;
+
+}
+.contact__heading{
+    font-size: 20px;
+   
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 0 0 2rem;
+
+}
+.contact .contact__phone-number{
+    display: block;
+    margin: 1rem 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+ 
+}
+@media screen and (max-width: 992px) {
+ 
+}
+@media screen and (max-width: 768px) {
+ 
+}
+@media screen and (max-width: 576px) {
+ 
+}
+
+@media screen and (max-width: 414px) {
+  
+ 
+}

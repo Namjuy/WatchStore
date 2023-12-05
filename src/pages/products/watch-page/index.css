@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.product__content {
+  border: solid 1px black;
+  border-radius: 15px;
+  width: 95%;
+
+  margin: 2rem 2rem 2rem 0;
+}
+
+.main {
+  display: flex;
+}
+
+.left-main {
+  flex: 30%;
+  max-width: 30%;
+  margin-top: 2rem;
+}

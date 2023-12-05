@@ -1,0 +1,86 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+footer {
+  background-color: #fff;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+footer .footer__body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+footer .footer__body .footer__item {
+  flex: 25%;
+  max-width: 25%;
+  margin: 0 0 30px 0;
+}
+footer .footer__body .footer__item ul a {
+  display: block;
+  padding: 5px 0;
+  transition: 0.4s all;
+  font-family: robotoMedium, sans-serif;
+}
+footer .footer__body .footer__item ul a:hover {
+  text-decoration: underline;
+}
+footer .footer__body .footer__item ul a span {
+  color: #d0021c;
+  font-family: robotoBold, sans-serif;
+}
+footer .footer__body .footer__item .footer__payment {
+  font-size: 18px;
+  font-family: robotoBold, sans-serif;
+  margin: 0 0 20px 0;
+}
+footer .footer__body .footer__item .verify {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+footer .footer__body .footer__item .verify__link {
+  display: block;
+  flex: calc(25% - 10px);
+  max-width: calc(25% - 10px);
+  background-color: rgba(237, 234, 234, 0.3803921569);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.4s all;
+}
+footer .footer__body .footer__item .verify__link:hover {
+  background-color: rgba(237, 234, 234, 0.64);
+}
+footer .footer__body .footer__item .verify__link img {
+  display: inline-block;
+}
+.copyright {
+  background: #f1f1f1;
+  color: #666;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 30px;
+  font-family: robotoRegular, sans-serif;
+}
+
+
+@media screen and (max-width: 1200px) {
+ 
+}
+@media screen and (max-width: 992px) {
+ 
+}
+@media screen and (max-width: 768px) {
+ 
+}
+@media screen and (max-width: 576px) {
+ 
+}
+
+@media screen and (max-width: 414px) {
+  
+ 
+}

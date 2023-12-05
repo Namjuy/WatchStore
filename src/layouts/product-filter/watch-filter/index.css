@@ -1,0 +1,55 @@
+ .filter__heading{
+    text-align: center;
+    border: 1px black solid;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+   .filter__title{
+    margin: 1rem auto;
+    font-size: 15px;
+    font-weight: bold;
+   
+    width: 70%;
+  }
+   .filter__line{
+    background-color: black;
+    height: 1px;
+    width: 70%;
+    margin: 1rem auto;
+  }
+   .filter__category{
+    margin: 1rem auto;
+    width: 70%;
+    display: flex;
+    flex: wrap;
+  }
+
+   .filter__category .filter__category-item{
+    flex: 50%;
+    max-width: 50%;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+  }
+   .filter__category .filter__category-brand{
+    margin-right: 10%;
+   }
+
+   .filter__category .filter__category-color{
+   margin-right: 10%;
+  }
+
+   .filter__category .filter__category-type{
+    margin-right: 10%;
+   }
+
+    .filter__category .filter__category-material{
+    margin-right: 10%;
+   }
+
+   .filter__category .filter__category-item:hover{
+    color: blueviolet;
+    cursor: pointer;
+  }
+

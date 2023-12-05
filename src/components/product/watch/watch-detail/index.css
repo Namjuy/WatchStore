@@ -1,0 +1,160 @@
+#watch-detail {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.left-detail {
+  flex: 30%;
+  max-width: 30%;
+  border: solid 1px black;
+  border-radius: 15px;
+  overflow: hidden;
+  height: fit-content;
+}
+.left-detail img:hover {
+  scale: 1.2;
+  transition: 0.3s ease;
+}
+
+.watch__model-name {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.line {
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  margin: 1rem auto;
+}
+
+.middle-detail {
+  flex: 30%;
+  max-width: 30%;
+  margin-left: 10%;
+}
+.middle-detail .middle-detail__infor {
+  height: fit-content;
+  border-radius: 15px;
+  box-shadow: 2px 5px rgb(203, 202, 202);
+  border: 0.25px solid rgb(203, 202, 202);
+  overflow: hidden;
+}
+/* .middle-detail .middle-detail__add-card{
+  height: fit-content;
+  background-color: #eee;
+  border-radius: 15px;
+  border: 1px solid black;
+  overflow: hidden;
+} */
+.middle-detail .middle-detail__infor:hover {
+  scale: 1.075;
+  transition: 0.3s ease;
+}
+
+.middle-detail .middle-detail__infor .middle-detail__infor-heading {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ff2e2e;
+  color: white;
+}
+
+.middle-detail ul li {
+  font-family: robotoBold, sans-serif;
+  font-size: 15px;
+  color: black;
+  list-style-type: square;
+  margin: 1rem 0 1rem 2rem;
+}
+.middle-detail ul li p {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.detail-right {
+  flex: 28%;
+  max-width: 28%;
+  margin-left: 2%;
+  height: fit-content;
+  overflow: hidden;
+}
+.watch__detail-color__Black {
+  height: 1rem;
+  width: 1rem;
+  background-color: #000000;
+  border: solid 0.25px black;
+}
+.watch__detail-color__White {
+  height: 1rem;
+  width: 1rem;
+  background-color: #fff;
+  border: solid 0.25px black;
+}
+
+.detail-right .detail-right__address .detail-right__address__heading {
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff2e2e;
+  font-size: 20px;
+  color: white;
+}
+.detail-right .watch__detail-price h3 {
+  margin-left: 2%;
+}
+.detail-right .detail-right__address {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.detail-right .detail-right__address ul li {
+  padding-left: 4%;
+}
+.detail-right .detail-right__address ul li::before {
+  content: "\2192"; /* Unicode character for right arrow → */
+  margin-right: 8px; /* Adjust as needed */
+}
+.detail-right .detail-right__address ul li:nth-child(even) {
+  background-color: rgb(255, 196, 196);
+}
+
+.detail-right .detail-right__freeship {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid black;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.detail-right .detail-right__freeship ul li {
+  padding-left: 4%;
+}
+
+.detail-right .detail-right__freeship ul li::before {
+  content: "\2192"; /* Unicode character for right arrow → */
+  margin-right: 8px; /* Adjust as needed */
+}
+
+.detail-right .detail-right__freeship .detail-right__freeship__heading {
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff2e2e;
+  font-size: 20px;
+  color: white;
+}
+
+.detail-right .detail-right__rate {
+  border-radius: 15px;
+  border: 1px solid black ;
+  margin-top: 2rem;
+  overflow: hidden;
+  padding: 1rem 0;
+  background-color: #0085ff;
+
+}
+.detail-right .detail-right__rate h3{
+  color: white;
+  margin-left: 2rem;
+}

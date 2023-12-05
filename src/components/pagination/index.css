@@ -1,0 +1,15 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination li button{
+    border: 1px solid red;
+    padding: 5px 10px;
+    border-radius: 15%;
+    margin:10px 5px 10px 0;
+}
+.pagination li button:focus,
+.pagination li button:active {
+  background-color: red;
+  color: white;
+}
